@@ -1,5 +1,7 @@
-FROM debian:jessie
+FROM ubuntu
 MAINTAINER kosk <mail@kosk.me>
+
+ARG http_proxy
 
 RUN apt-get update && \
     apt-get -yqq install \

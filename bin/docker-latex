@@ -3,4 +3,4 @@
 docker run --rm \
            -v /etc/localtime:/etc/localtime:ro \
            -v `pwd`:/data \
-           kosk/latex-jp $@
+           koh1/docker-latex-jp $@
